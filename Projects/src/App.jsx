@@ -2,14 +2,16 @@
 import './App.css'
 import Accordian from './components/accordian'
 import ColorGenerator from './components/ColorGenrator'
+import StarRating from './components/star-rating'
 
 function App() {
   return <div>
     {/* accordian components */}
-    {/* <Accordian></Accordian> */}
+    {/* <Accordian/> */}
 
     {/* Color generator */}
-    <ColorGenerator></ColorGenerator>
+    {/* <ColorGenerator/>*/}
+    <StarRating noOfStars={10}/>
   </div>
 }
 
