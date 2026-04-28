@@ -7,6 +7,8 @@ import StarRating from './components/star-rating'
 import ImageSlider from './components/image slider'
 import LoadMoreData from './components/load-more-data'
 import TreeView from './components/tree-view'
+import QrCode from './components/qrCodeGenerator'
+import LightDarkMode from './components/LightDarkMode'
 
 function App() {
   return <div>
@@ -26,7 +28,13 @@ function App() {
     {/* <LoadMoreData/> */}
 
     {/* rexursive navigation menu */}
-    <TreeView menus={menus}/>
+    {/* <TreeView menus={menus}/> */}
+    
+    {/* Qr code generator */}
+    {/* <QrCode/> */}
+    
+    {/* sswitch Color mode */}
+    <LightDarkMode/>
   </div>
 }
 

@@ -1,0 +1,39 @@
+:root{
+    --baclground :  #fff;
+    --text-primary : #000;
+    --button-bg : #000;
+    --button-text : #fff;
+}
+
+[data-theme='dark']{
+    --baclground : #000;
+    --text-primary : #fff;
+    --button-bg : #fff;
+    --button-text : #000;
+}
+
+.light-dark-mode{
+    background-color: var(--baclground);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+.light-dark-mode p{
+    color: var(--text-primary);
+    font-size: 64px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.light-dark-mode button{
+    color: var(--text-primary);
+    border: 2px solid var(--button-bg);
+    padding: 0 20px ;
+    border-radius: 12px;
+    height: 52px;
+}
