@@ -9,6 +9,8 @@ import LoadMoreData from './components/load-more-data'
 import TreeView from './components/tree-view'
 import QrCode from './components/qrCodeGenerator'
 import LightDarkMode from './components/LightDarkMode'
+import ScrollIndicator from './components/scroolIndicator'
+import TabTest from './components/customTabs/tabTest'
 
 function App() {
   return <div>
@@ -34,7 +36,13 @@ function App() {
     {/* <QrCode/> */}
     
     {/* sswitch Color mode */}
-    <LightDarkMode/>
+    {/* <LightDarkMode/> */}
+
+    {/* scroll indicator */}
+    {/* <ScrollIndicator url={'http://dummyjson.com/products?limit=100'}/> */}
+
+    {/* Custom tabs */}
+    <TabTest/>
   </div>
 }
 
